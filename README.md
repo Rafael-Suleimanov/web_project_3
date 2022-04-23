@@ -11,5 +11,5 @@ This is the third project of the Web Development program at Practicum by Yandex.
 - Positioning
 - Flat BEM
 - CSS animation and transform
- 
 
+[From Homeland to Homeland Project link](https://rafael-suleimanov.github.io/web_project_3/)
