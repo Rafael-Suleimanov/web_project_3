@@ -41,12 +41,16 @@
     margin: 243px auto 0 auto;
 }
 
-.cover__subtitle {
+.cover__subtitles {
     max-width: 280px;
     text-align: center;
     font-size: 18px;
     line-height: 22px;
     margin: 32px auto 0 auto;
+}
+
+.cover__subtitle {
+    display: block;
 }
 
 .cover__button {
@@ -148,7 +152,7 @@
         margin: 46px auto 0 auto;
     }
     
-    .cover__subtitle {
+    .cover__subtitles {
         max-width: 280px;
         text-align: center;
         font-size: 14px;
