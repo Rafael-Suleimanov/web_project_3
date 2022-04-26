@@ -1,7 +1,11 @@
 .intro {
     font-family: "Inter", Arial, sans-serif;
     max-width: 984px;
-    margin: 92px auto 0 auto;
+    margin: 92px auto 0;
+}
+
+.intro__column {
+    max-width: 785px;
 }
 
 .intro__title {
@@ -9,7 +13,6 @@
     font-size: 54px;
     color: #FFFFFF;
     line-height: 58px;
-    max-width: 785px;
     margin: 0;
 }
 
@@ -18,8 +21,7 @@
     line-height: 34px;
     font-weight: 400;
     color: #FFFFFF;
-    max-width: 720px;
-    margin: 40px 0 0;
+    margin: 40px 0 0 0;
 }
 
 .intro__author {
@@ -27,98 +29,53 @@
     font-size: 24px;
     line-height: 34px;
     text-align: right;
-    max-width: 720px;
-    margin: 10px 0 0;
+    margin: 10px 0 0 0;
 }
 
 .intro__info {
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    max-width: 720px;
-    margin: 32px 0 0;
+    margin: 32px 0 0 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .intro__column {
+        padding: 0 24px 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        font-family: "Inter", Arial, sans-serif;
-        max-width: 984px;
-        margin: 0 auto;
+        margin: 0 24px;
     }
+
+    .intro__column {
+        padding: 0;
+    }
+
     .intro__title {
-        font-weight: 900;
-        font-size: 54px;
-        color: #FFFFFF;
-        line-height: 58px;
-        max-width: 720px;
         margin: 88px auto 0;
-    }
-    .intro__subtitle {
-        font-size: 24px;
-        line-height: 34px;
-        font-weight: 400;
-        color: #FFFFFF;
-        max-width: 720px;
-        margin: 40px auto 0;
-    }
-
-    .intro__author {
-        color: #FFFFFF;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: right;
-        max-width: 720px;
-        margin: 10px auto 0;
-    }
-
-    .intro__info {
-        font-size: 16px;
-        line-height: 26px;
-        color: #FFFFFF;
-        max-width: 720px;
-        margin: 32px auto 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
     .intro {
-        font-family: "Inter", Arial, sans-serif;
-        max-width: 288px;
-        margin: 0 auto;
+        margin: 0 16px 0 16px;
     }
 
     .intro__title {
-        font-weight: 900;
         font-size: 32px;
-        color: #FFFFFF;
         line-height: 35px;
-        max-width: 288px;
         margin: 64px auto 0;
     }
 
     .intro__subtitle {
-        font-size: 24px;
         line-height: 30px;
-        font-weight: 400;
-        color: #FFFFFF;
-        max-width: 288px;
         margin: 40px auto 0;
     }
 
-    .intro__author {
-        color: #FFFFFF;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: right;
-        max-width: 288px;
-        margin: 10px auto 0;
-    }
-
     .intro__info {
-        font-size: 16px;
-        line-height: 26px;
-        color: #FFFFFF;
-        max-width: 288px;
         margin: 32px auto 0;
     }
 }

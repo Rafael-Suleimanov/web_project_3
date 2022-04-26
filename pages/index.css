@@ -1,7 +1,8 @@
-@import "../vendor/fonts/inter.css";
 @import "../vendor/normalize.css";
+@import "../vendor/fonts/inter.css";
 @import "../blocks/page.css";
 @import "../blocks/header.css";
+@import "../blocks/title.css";
 @import "../blocks/logo.css";
 @import "../blocks/intro.css";
 @import "../blocks/photo-grid.css";
